@@ -1,0 +1,37 @@
+# --- Secrets / environment ---
+.env
+.env.local
+.env.*.local
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+
+# --- Node / Deno ---
+node_modules/
+
+# --- Supabase (local dev artifacts) ---
+supabase/.branches/
+supabase/.temp/
+.supabase/
+
+# --- Raw data: NEVER commit property data ---
+*.txt
+*.tsv
+*.csv
+*.zip
+data/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- One-shot helper (safe to delete) ---
+_fix_runbook.py

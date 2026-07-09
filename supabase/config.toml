@@ -1,0 +1,8 @@
+# Minimal Supabase config for the POC.
+# If the CLI wants a full config, run `supabase init` in this folder — the
+# function below is already in place and will be picked up.
+
+project_id = "twg-api"
+
+[functions.property-search]
+verify_jwt = false
